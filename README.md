@@ -1,6 +1,8 @@
 # BLE_Mute_Switch
 Use an "iTag" device and an ESP32 as a remote control button or switch.  Intended as a radar detector mute switch.
 
+![Project with iTag Devices](docs/project.jpg)
+
 # iTag Device
 
 The "iTag" is budget bluetooth locator tag similar to "Tile".  When on, the iTag provides a bluetooth low energy
@@ -39,7 +41,11 @@ regulator to get down to the 3.3v operating voltage.
 to use this with a Valentine One.  You could probably easily do this with a transistor, relay or some other
 switching method.
 
+![Assembly](docs/assembly.jpg)
+
 # Schematic
+
+![Schematic](docs/schematic.png)
 
 # License
 I have released my portions of this project under GPL v3.  It is based on some sample code which I belive is
