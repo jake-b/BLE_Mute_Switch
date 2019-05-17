@@ -39,7 +39,8 @@ can't really be used simultaneously due to memory constraints.
 regulator to get down to the 3.3v operating voltage.
 - A protoshiled with a PC817 opto isolator and resistor.  You might need a second resisor if you intend
 to use this with a Valentine One.  You could probably easily do this with a transistor, relay or some other
-switching method.
+switching method.  (Note: I have not tested this extensively with either the R7 or the V1, so proceed at
+your own risk!)
 
 ![Assembly](docs/assembly.jpg)
 
